@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#202F66">
+  <meta name="description" content="Ahavidya is coming soon — personalized learning with the right mentor.">
+  <meta property="og:title" content="Ahavidya — From confused to Aha!">
+  <meta property="og:description" content="Ahavidya is coming soon. One student. One mentor. Zero doubt.">
+  <meta property="og:type" content="website">
+  <title>Ahavidya — Coming Soon</title>
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Ahavidya home">
+      <img src="assets/ahavidya-logo.png" alt="Ahavidya — From confused to Aha!">
+    </a>
+    <a class="notify-top" href="#notify">Get notified</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">A new way to learn is arriving</span>
+        <h1>One student.<br><span>One mentor.</span><br>Zero doubt.</h1>
+        <p class="lead">
+          Personalized learning, the right guidance, and a mentor who helps every student move
+          from confusion to confidence.
+        </p>
+
+        <div class="launch-card" aria-label="Launch date">
+          <div class="launch-label">AHAVIDYA IS COMING</div>
+          <div class="launch-date">October 2, 2026</div>
+          <div class="launch-note">Aha! Learning is coming.</div>
+          <div class="countdown" id="countdown" aria-live="polite">
+            <div><strong id="days">--</strong><span>Days</span></div>
+            <div><strong id="hours">--</strong><span>Hours</span></div>
+            <div><strong id="minutes">--</strong><span>Minutes</span></div>
+            <div><strong id="seconds">--</strong><span>Seconds</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="floating-card card-one"><span>✓</span> Expert mentors</div>
+        <div class="floating-card card-two"><span>1:1</span> Personalised</div>
+        <div class="laptop">
+          <div class="screen">
+            <div class="screen-top"></div>
+            <div class="screen-line wide"></div>
+            <div class="screen-line"></div>
+            <div class="screen-line short"></div>
+            <div class="mentor-dot"></div>
+            <div class="screen-pill">Aha!</div>
+          </div>
+          <div class="keyboard"></div>
+        </div>
+        <div class="student-head"></div>
+        <div class="student-hair"></div>
+        <div class="student-body"></div>
+        <div class="headphones left"></div>
+        <div class="headphones right"></div>
+      </div>
+    </section>
+
+    <section class="features">
+      <article><div class="feature-icon">★</div><h3>Expert Mentors</h3><p>Learn from mentors who know how to teach.</p></article>
+      <article><div class="feature-icon">1:1</div><h3>Personalised Learning</h3><p>Sessions shaped around each student's needs.</p></article>
+      <article><div class="feature-icon">↗</div><h3>Flexible Learning</h3><p>Online and offline learning that fits your schedule.</p></article>
+      <article><div class="feature-icon">✓</div><h3>Safe &amp; Trusted</h3><p>A learning experience built around students.</p></article>
+    </section>
+
+    <section class="subjects">
+      <div>
+        <span class="section-kicker">Explore learning</span>
+        <h2>Popular subjects</h2>
+      </div>
+      <div class="subject-list">
+        <span>Mathematics</span><span>Science</span><span>Physics</span><span>Chemistry</span>
+        <span>Biology</span><span>English</span><span>Coding</span><span>And more</span>
+      </div>
+    </section>
+
+    <section class="how">
+      <div class="section-heading">
+        <span class="section-kicker">Simple by design</span>
+        <h2>How it works</h2>
+      </div>
+      <div class="steps">
+        <div class="step"><b>01</b><h3>Find your mentor</h3><p>Discover the right mentor for your subject and goals.</p></div>
+        <div class="step"><b>02</b><h3>Book a session</h3><p>Choose a convenient time that works for you.</p></div>
+        <div class="step"><b>03</b><h3>Start learning</h3><p>Learn, ask, practise and grow with confidence.</p></div>
+      </div>
+    </section>
+
+    <section class="cta-grid">
+      <div class="cta student">
+        <span class="section-kicker">For students &amp; parents</span>
+        <h2>Ready to go from confused to Aha?</h2>
+        <p>Be among the first to experience Ahavidya.</p>
+        <a href="#notify" class="cta-button">Keep me updated <span>→</span></a>
+      </div>
+      <div class="cta tutor">
+        <span class="section-kicker">For tutors</span>
+        <h2>Want to become an Ahavidya mentor?</h2>
+        <p>We are opening our mentor community soon.</p>
+        <a href="#notify" class="cta-button outline">Join the waitlist <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="notify" id="notify">
+      <div>
+        <span class="section-kicker">Stay in the loop</span>
+        <h2>Be the first to know.</h2>
+        <p>Leave your email and we’ll help you stay connected when Ahavidya launches.</p>
+      </div>
+      <form class="notify-form" onsubmit="return handleNotify(event)">
+        <label class="sr-only" for="email">Email address</label>
+        <input id="email" type="email" placeholder="Your email address" required>
+        <button type="submit">Notify me</button>
+      </form>
+      <p class="form-note" id="form-note">This static page does not send data to a server yet.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <img src="assets/ahavidya-logo.png" alt="Ahavidya">
+      <p>From confused to Aha!</p>
+    </div>
+    <div class="footer-right">
+      <span>Launching October 2, 2026</span>
+      <a href="mailto:hello@ahavidya.com">hello@ahavidya.com</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
